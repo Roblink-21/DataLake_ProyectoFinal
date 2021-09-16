@@ -367,6 +367,32 @@ De esta manera ya habremos creado nuestro apartado de datos que seran usados par
 ![image](https://user-images.githubusercontent.com/58041699/133634015-007c13d3-2286-45ea-80cd-48b960e202da.png)
 
 
+* Generador de datos para elasticsearch con _script_es.py_.
+![1](https://user-images.githubusercontent.com/66259796/133692578-2bb0a3e2-71ed-47e4-92ed-3b47b1e169c3.PNG)
+
+Verificación de datos generados en el archivo de texto para ejecutarlos.
+![2](https://user-images.githubusercontent.com/66259796/133692612-fe4fd0bb-d1a0-40d8-b577-0922dcdb5270.PNG)
+
+Creación del index de mongo creado de manera automática en elasticsearch comprobado.
+![3](https://user-images.githubusercontent.com/66259796/133692632-9a89315f-2c00-4529-bc5c-1f06006969b8.PNG)
+
+Compilación correcta y en proceso de la subida de datos.
+![4](https://user-images.githubusercontent.com/66259796/133692648-e6a973e9-c429-494f-9bd6-091773a5ff10.PNG)
+
+Script para MySQL Apache con conexión a elasticsearch local y también remoto.
+![5](https://user-images.githubusercontent.com/66259796/133692668-94abbcb9-02ca-47b8-ac57-8bee1525e6b9.PNG)
+
+Compilación correcta y en proceso de la subida de datos con respecto a mysql apache.
+![6](https://user-images.githubusercontent.com/66259796/133692680-9338ceec-afb7-4121-9918-faa8a8e11d60.PNG)
+
+Creación del index de mysql apache creado de manera automática en elasticsearch comprobado.
+![7](https://user-images.githubusercontent.com/66259796/133692686-8a01ac08-e5f3-4c42-9a4e-9e71aec6f2d2.PNG)
+
+Indexación de datos a buscar y presentación en formato json.
+![8](https://user-images.githubusercontent.com/66259796/133692705-ddac4c0d-90dc-4521-929c-751364a31709.PNG)
+
+
+
 # VISUALIZACION - (POWER BI, KIBANA)
 
 * Power BI
@@ -459,28 +485,3 @@ y seleccionamos nuestro index para luego configurar todo
 ![image](https://user-images.githubusercontent.com/58041699/133669645-754ae051-f499-411d-8afa-98da528ece3d.png)
 
 
-## Bases de datos NoSQL
-
-Generador de datos para elasticsearch con _script_es.py_.
-![1](https://user-images.githubusercontent.com/66259796/133692578-2bb0a3e2-71ed-47e4-92ed-3b47b1e169c3.PNG)
-
-Verificación de datos generados en el archivo de texto para ejecutarlos.
-![2](https://user-images.githubusercontent.com/66259796/133692612-fe4fd0bb-d1a0-40d8-b577-0922dcdb5270.PNG)
-
-Creación del index de mongo creado de manera automática en elasticsearch comprobado.
-![3](https://user-images.githubusercontent.com/66259796/133692632-9a89315f-2c00-4529-bc5c-1f06006969b8.PNG)
-
-Compilación correcta y en proceso de la subida de datos.
-![4](https://user-images.githubusercontent.com/66259796/133692648-e6a973e9-c429-494f-9bd6-091773a5ff10.PNG)
-
-Script para MySQL Apache con conexión a elasticsearch local y también remoto.
-![5](https://user-images.githubusercontent.com/66259796/133692668-94abbcb9-02ca-47b8-ac57-8bee1525e6b9.PNG)
-
-Compilación correcta y en proceso de la subida de datos con respecto a mysql apache.
-![6](https://user-images.githubusercontent.com/66259796/133692680-9338ceec-afb7-4121-9918-faa8a8e11d60.PNG)
-
-Creación del index de mysql apache creado de manera automática en elasticsearch comprobado.
-![7](https://user-images.githubusercontent.com/66259796/133692686-8a01ac08-e5f3-4c42-9a4e-9e71aec6f2d2.PNG)
-
-Indexación de datos a buscar y presentación en formato json.
-![8](https://user-images.githubusercontent.com/66259796/133692705-ddac4c0d-90dc-4521-929c-751364a31709.PNG)
