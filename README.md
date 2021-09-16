@@ -51,6 +51,13 @@ Cada caso de estudio debe tener su propio dashboard y de todo el proyecto al men
 
 ![image](https://user-images.githubusercontent.com/58041699/133362509-725d8840-3013-4a63-9685-f35397f7c9bc.png)
 
+Una vez seleccionada nuestra cuenta de tiktok, el siguiente paso es su obtencion de datos que seran guardados en un csv.
+Para ello necesitamos contar con una dependencia para ello y lo instalamos a traves de node.js
+
+![image](https://user-images.githubusercontent.com/58041699/133610895-f7c01c0f-3591-4b5f-ab18-f408b8c16e4b.png)
+
+
+
 * SQL LITE --- KAGGLE(CSV)
 
 En la pagina de KAGGLE podemos contar con dataset's de una gran variedad de temas, para esta practica haremos uso de un dataset sobre las variantes del covid.
