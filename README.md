@@ -289,19 +289,43 @@ Despues de obtener los datos, creamos un apartado de index donde recogeremos eso
 
 ![vista](https://user-images.githubusercontent.com/58041699/133624357-576ea073-3e35-449c-9192-1ec40515be4e.JPG)
 
-- Visualizacion
+* Script SQL LITE
 
-Por ultimo, nos dirigiremos a Kibana donde haremos la visualizacion de los datos a traves de una tabla.
+Importamos las librerias necesarias para SQL litw
 
-![kibana](https://user-images.githubusercontent.com/58041699/133624542-45292c65-f632-4d09-9aa2-a351c13da269.JPG)
+![image](https://user-images.githubusercontent.com/58041699/133627280-9a4e117b-7573-4151-86e5-4e1a2f0b4ee6.png)
 
-De esta manera seleccionaremos en dashboard para realizar dicha representacion grafica
+Probamos la coneccion e imprimimos los datos que se almacenan para observar su funcionamiento
 
-![image](https://user-images.githubusercontent.com/58041699/133625046-5b77ffa2-ef4a-49f2-8335-58f4171a7682.png)
+![image](https://user-images.githubusercontent.com/58041699/133627337-b9fce651-400b-4cfc-bd9a-9a2c6badf5f1.png)
 
-y seleccionamos nuestro index para luego configurar todo
+Guardamos en dataframe cada columna
 
-![visualizacion](https://user-images.githubusercontent.com/58041699/133625176-8e3518a1-35ae-424f-b9b2-1bbaf938fcc3.JPG)
+![image](https://user-images.githubusercontent.com/58041699/133627549-bf15614c-72f4-4340-93d0-ef18f71cb799.png)
+
+Luego son pasados a un array para poder hacer su interacion
+
+![image](https://user-images.githubusercontent.com/58041699/133627681-392a8723-de28-467a-97b5-dca18fa6cee1.png)
+
+Importamos librerias para ElasticSearch
+
+![image](https://user-images.githubusercontent.com/58041699/133627767-c03060f6-a81d-4b38-9e30-1f58c2ecb717.png)
+
+Y realizamos la conexion con el mapeo para pasar los datos a ElasticSearch cloud
+
+![image](https://user-images.githubusercontent.com/58041699/133628006-02db5827-a177-4a52-9da4-1b16d43335e1.png)
+
+- ElatichSearch status
+
+Podemos observar un ligero incremento en nuestro consumo de memoria a diferencia de la anterior app de esta manera podemos asegurar que la api funciona.
+
+![image](https://user-images.githubusercontent.com/58041699/133628291-c86d85cb-bafe-4b2b-b368-9bd733d1c4c0.png)
+
+
+
+
+
+
 
 # VISUALIZACION - (POWER BI, KIBANA)
 
@@ -350,7 +374,19 @@ Y con ello abremos importado la data de nuestro SQL LITE a Power BI, y de esta m
 ![Captura3](https://user-images.githubusercontent.com/58041699/133548202-cc84f56e-c284-4cee-b4a9-1f65893e982e.JPG)
 
 
+* Visualizacion (Api Twitter)
 
+Por ultimo, nos dirigiremos a Kibana donde haremos la visualizacion de los datos a traves de una tabla.
+
+![kibana](https://user-images.githubusercontent.com/58041699/133624542-45292c65-f632-4d09-9aa2-a351c13da269.JPG)
+
+De esta manera seleccionaremos en dashboard para realizar dicha representacion grafica
+
+![image](https://user-images.githubusercontent.com/58041699/133625046-5b77ffa2-ef4a-49f2-8335-58f4171a7682.png)
+
+y seleccionamos nuestro index para luego configurar todo
+
+![visualizacion](https://user-images.githubusercontent.com/58041699/133625176-8e3518a1-35ae-424f-b9b2-1bbaf938fcc3.JPG)
 
 
 
