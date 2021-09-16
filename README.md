@@ -64,8 +64,57 @@ Ese dataset que adquirimos podemos trasladarlo a un gestor base de datos como sq
 
 ![image](https://user-images.githubusercontent.com/58041699/133370797-5cbec501-f64b-4007-96e5-fc4495ed9c21.png)
 
-Una vez importada la data, ya hemos conseguido una BD SQL donde podemos observar las dominios de cada columnas.
-![image](https://user-images.githubusercontent.com/58041699/133545801-62d33216-eb69-4600-8640-6f39979cdb3d.png)
+* RAPIDMINER
+
+Este datset se encuentra con valores nulos en casi todos sus registros, para ello debemos buscar una solucion para descartar esos datos nulos y colocar datos a traves de un promedio. Usaremos la herramienta Rapidminer para realizar una limpieza de datos para rellenar los registros vacios.
+
+![image](https://user-images.githubusercontent.com/58041699/133549763-dec21da4-05d8-41cf-8911-ae04366a28fa.png)
+
+Entonces cargamos la dataset con uno de los componenetes que leen datos NOSQL
+
+![image](https://user-images.githubusercontent.com/58041699/133549852-bffc84b8-ae93-4d5e-a89a-76b55ec5b54a.png)
+
+Luego hacemos usa del componente map para elegir los campos que queremos priorizar ante un cambio, despues hacemos uso del componente de reemplazar los componentes faltantes donde debemos identificar las columnas que tengan valores nulos y tambien eligiremos la respuesta ante los cambios donde sera un promedio de todos los datos.
+
+![image](https://user-images.githubusercontent.com/58041699/133551671-74b21cf7-1d87-417d-8a4b-60e35a2ac268.png)
+
+![image](https://user-images.githubusercontent.com/58041699/133551359-822d3033-3b3e-4ec6-b7ea-364d65921b26.png)
+
+Y luego haremos la ejecucion del modelo para luego poder observar como los datos vacios han sido cubiertos por valores promedios.
+
+![image](https://user-images.githubusercontent.com/58041699/133551800-1fd222af-8f82-449e-8401-2cf1e6254ddd.png)
+
+Entonces con nuestro nuevo dataset, vamos a exportarlo y luego subirlo a nuestro sql lite pero para obtener esos datos no se puede hacer de manera directa para ello contaremos con una BD NOSQL que sera receptor de los datos que posteriormente seran exportados y subidos a sql lite.
+
+* MongoDB
+
+MongoDB nos ayudara con la recepcion de esos datos, como primer paso creamos una BD con un nombre.
+
+![image](https://user-images.githubusercontent.com/58041699/133552382-ddb3c827-48de-4798-9756-8178ed09cdf6.png)
+
+Una vez creada nos dirigiremos a Rapidminer donde crearemos una conexion con nuestra BD.
+
+![image](https://user-images.githubusercontent.com/58041699/133552587-c5a403f4-c840-4ad2-a95f-41fe284b9f83.png)
+
+Una vez creada configuraremos la base de datos y el host para establecer la conexion directa a MongoDB
+
+![image](https://user-images.githubusercontent.com/58041699/133552793-37dedd52-acd8-49da-a180-d3b46dfa9a65.png)
+
+De esta manera ya podemos hacer uso de esta coneccion, para el siguiente paso la añadiremos a nuestro diseño
+
+![image](https://user-images.githubusercontent.com/58041699/133553164-58b22c3e-c0ee-49ce-a863-8a8861eb06f4.png)
+
+Una vez diseñada la arquitectura, verificaremos que en MongoDB se encuentren nuestros datos.
+
+![image](https://user-images.githubusercontent.com/58041699/133553280-5e57e98c-5b17-4abb-8095-c9d1ac3a755a.png)
+
+Para el siguiente paso es extraer estos nuevos datos como csv y los enviaremos SQL LITE
+
+![image](https://user-images.githubusercontent.com/58041699/133553410-3b59526b-3c83-460f-99ed-2ab6fd64fa67.png)
+
+
+Como ultimo paso cargaremos el nuevo dataset NOSQL a SQL lite convirtiendo asi los datos en SQL, de esta manera ya hemos conseguido una BD SQL donde podemos observar las dominios de cada columnas.
+![image](https://user-images.githubusercontent.com/58041699/133553647-48c5d1c3-fb52-45a4-9143-e804c321e92e.png)
 
 * MYSQL-(PHPMYADMIN) --- INEC
 
