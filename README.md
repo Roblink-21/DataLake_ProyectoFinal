@@ -325,8 +325,17 @@ Para asegurar este proceso nos dirigiremos a Managment para revisar los index nu
 
 ![image](https://user-images.githubusercontent.com/58041699/133628819-dccc580f-7949-42c7-ab80-e30f78ee3a5c.png)
 
+-Crear un index
 
+Creamos un index el cual recogera nuestros datos de SQL para luego poder ser usados en Kibana
 
+![image](https://user-images.githubusercontent.com/58041699/133633428-9554ef52-5c74-4109-9664-33b511cc651a.png)
+
+![image](https://user-images.githubusercontent.com/58041699/133633677-ce77e6ac-83ad-4bbc-a452-4df9f20899c6.png)
+
+De esta manera ya habremos creado nuestro apartado de datos que seran usados para la representacion grafica en Kibana
+
+![image](https://user-images.githubusercontent.com/58041699/133634015-007c13d3-2286-45ea-80cd-48b960e202da.png)
 
 
 # VISUALIZACION - (POWER BI, KIBANA)
@@ -379,6 +388,22 @@ Y con ello abremos importado la data de nuestro SQL LITE a Power BI, y de esta m
 * Visualizacion (Api Twitter)
 
 Por ultimo, nos dirigiremos a Kibana donde haremos la visualizacion de los datos a traves de una tabla.
+
+![kibana](https://user-images.githubusercontent.com/58041699/133624542-45292c65-f632-4d09-9aa2-a351c13da269.JPG)
+
+De esta manera seleccionaremos en dashboard para realizar dicha representacion grafica
+
+![image](https://user-images.githubusercontent.com/58041699/133625046-5b77ffa2-ef4a-49f2-8335-58f4171a7682.png)
+
+y seleccionamos nuestro index para luego configurar todo
+
+![visualizacion](https://user-images.githubusercontent.com/58041699/133625176-8e3518a1-35ae-424f-b9b2-1bbaf938fcc3.JPG)
+
+
+
+* Visualizacion (SQL)
+
+Por ultimo, nos dirigiremos a Kibana donde haremos la visualizacion de los datos a traves de una representacion de datos.
 
 ![kibana](https://user-images.githubusercontent.com/58041699/133624542-45292c65-f632-4d09-9aa2-a351c13da269.JPG)
 
