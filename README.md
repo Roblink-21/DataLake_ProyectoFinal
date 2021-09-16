@@ -41,6 +41,10 @@ Se debe crear la indexación en al menos 2 nodos. (debe crear un clúster)
 Para las visualizaciones en tiempo real se usará Kibana, para los dashboards estáticos se utilizará cualquier otra herramienta.
 Cada caso de estudio debe tener su propio dashboard y de todo el proyecto al menos una visualización debe tener geolocalización.
 
+# ARQUITECTURA
+
+![arquitectura](https://user-images.githubusercontent.com/58127103/133541999-f4d61455-0772-4f3e-afe3-f5453c85397f.png)
+
 # SCRIPTS -- BD SQL
 
 * SQL LITE --- TIKTOK
