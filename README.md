@@ -244,6 +244,59 @@ Una vez establecida las configuraciones podemos dar un vistaso previo a la tabla
 
 # ELASTICSEARCH -- CONCENTRADOR DE DATOS
 
+* Api Twitter
+
+Exportamos las librerias necesarias
+![image](https://user-images.githubusercontent.com/58041699/133618944-e705c581-02fd-4b72-8887-23ba707e0477.png)
+
+Agregamos credenciales necesarias para la mineria de datos en Twitter y el cluster de nuestro elasticsearch cloud
+![image](https://user-images.githubusercontent.com/58041699/133619425-e51187de-87e9-4d3f-a8d3-e401240bcec9.png)
+
+Luego estructuramos la data que generemos con la estructura JSON
+![image](https://user-images.githubusercontent.com/58041699/133619678-67804b79-58eb-4acd-b728-a7e9d41a2c07.png)
+
+Al final se identifica el metodo de busqueda que queramos realizar (Geolocalizacion o Filtros de palabras )
+![image](https://user-images.githubusercontent.com/58041699/133619782-3d65c00b-d0fc-41b5-9415-ef97a7358025.png)
+
+- Ejecucion
+Con elasticSearch cloud crearemos un 
+
+![image](https://user-images.githubusercontent.com/58041699/133621516-08e98527-fa39-4afd-aa5f-812821b76779.png)
+
+![image](https://user-images.githubusercontent.com/58041699/133622004-22a0ff6a-7a36-414b-bf75-bab56ac5116f.png)
+
+Ejecutamos nuestro script
+![image](https://user-images.githubusercontent.com/58041699/133620054-30c93c40-4b54-435f-9711-bba387d32485.png)
+
+Una vez ejecutado nos dirigiremos a elasticsearch y despues al apartado Managment y observaremos en los index el nuestro recien creado y tambien con una previa visualizacion del JSON
+
+![Index](https://user-images.githubusercontent.com/58041699/133622458-b61cd4a4-83a6-47c6-8e77-6e0d24ae6f22.JPG)
+
+![estructura](https://user-images.githubusercontent.com/58041699/133622496-2b229f51-e5c4-4612-a576-de39c05cccbe.JPG)
+
+- Creamos un index
+
+Despues de obtener los datos, creamos un apartado de index donde recogeremos esos datos para luego usarlos en Kibana.
+
+![creamos un index](https://user-images.githubusercontent.com/58041699/133622899-c2af6d69-c2bc-43e4-b3e5-fae32607f0e0.JPG)
+
+![creacion](https://user-images.githubusercontent.com/58041699/133624308-0296f486-e5a0-4732-ab2e-a17eab378bb9.JPG)
+
+![vista](https://user-images.githubusercontent.com/58041699/133624357-576ea073-3e35-449c-9192-1ec40515be4e.JPG)
+
+- Visualizacion
+
+Por ultimo, nos dirigiremos a Kibana donde haremos la visualizacion de los datos a traves de una tabla.
+
+![kibana](https://user-images.githubusercontent.com/58041699/133624542-45292c65-f632-4d09-9aa2-a351c13da269.JPG)
+
+De esta manera seleccionaremos en dashboard para realizar dicha representacion grafica
+
+![image](https://user-images.githubusercontent.com/58041699/133625046-5b77ffa2-ef4a-49f2-8335-58f4171a7682.png)
+
+y seleccionamos nuestro index para luego configurar todo
+
+![visualizacion](https://user-images.githubusercontent.com/58041699/133625176-8e3518a1-35ae-424f-b9b2-1bbaf938fcc3.JPG)
 
 # VISUALIZACION - (POWER BI, KIBANA)
 
