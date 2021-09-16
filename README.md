@@ -43,7 +43,7 @@ Cada caso de estudio debe tener su propio dashboard y de todo el proyecto al men
 
 # ARQUITECTURA
 
-![arquitectura](https://user-images.githubusercontent.com/58127103/133541999-f4d61455-0772-4f3e-afe3-f5453c85397f.png)
+![arquitectura](https://user-images.githubusercontent.com/58127103/133654061-03d4d1ea-305d-42d9-8bec-deb71d859f18.png)
 
 # SCRIPTS -- BD SQL
 
