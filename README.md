@@ -258,6 +258,19 @@ entonces integramos nuestro script .conf dentro de nuestra carpeta bin y lo inic
 
 ![image](https://user-images.githubusercontent.com/58041699/133661583-6bbca7d1-d0b4-42fd-929b-dc89cd454d90.png)
 
+De esta manera ya habremos recolectado una gran cantidad de datos que posteriormente seran usados para su representacion en kibana.
+
+-Crear un index
+
+Creamos un index el cual recogera nuestros datos generados por couchdb para luego poder ser usados en Kibana
+
+![image](https://user-images.githubusercontent.com/58041699/133666269-d0332944-f193-4205-a47c-16ad89e8c9cf.png)
+
+![image](https://user-images.githubusercontent.com/58041699/133666330-6246d140-906c-4970-8478-a530a2b519bd.png)
+
+De esta manera ya habremos creado nuestro apartado de datos que seran usados para la representacion grafica en Kibana
+
+![image](https://user-images.githubusercontent.com/58041699/133666415-8c187283-adb7-42bb-96c1-368d6d4c5e1b.png)
 
 
 * Api Twitter
@@ -307,7 +320,7 @@ Despues de obtener los datos, creamos un apartado de index donde recogeremos eso
 
 * Script SQL LITE
 
-Importamos las librerias necesarias para SQL litw
+Importamos las librerias necesarias para SQL lite
 
 ![image](https://user-images.githubusercontent.com/58041699/133627280-9a4e117b-7573-4151-86e5-4e1a2f0b4ee6.png)
 
@@ -431,6 +444,19 @@ y seleccionamos nuestro index para luego configurar todo
 
 ![image](https://user-images.githubusercontent.com/58041699/133634797-70af125a-11cb-419e-9035-18c3c4180e96.png)
 
+* Visualizacion (Api Facebook)
+
+Por ultimo, nos dirigiremos a Kibana donde haremos la visualizacion de los datos a traves de una representacion de datos.
+
+![kibana](https://user-images.githubusercontent.com/58041699/133624542-45292c65-f632-4d09-9aa2-a351c13da269.JPG)
+
+De esta manera seleccionaremos en dashboard para realizar dicha representacion grafica
+
+![image](https://user-images.githubusercontent.com/58041699/133625046-5b77ffa2-ef4a-49f2-8335-58f4171a7682.png)
+
+y seleccionamos nuestro index para luego configurar todo
+
+![image](https://user-images.githubusercontent.com/58041699/133634797-70af125a-11cb-419e-9035-18c3c4180e96.png)
 
 
 
