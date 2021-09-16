@@ -51,11 +51,14 @@ Cada caso de estudio debe tener su propio dashboard y de todo el proyecto al men
 
 ![image](https://user-images.githubusercontent.com/58041699/133362509-725d8840-3013-4a63-9685-f35397f7c9bc.png)
 
-Una vez seleccionada nuestra cuenta de tiktok, el siguiente paso es su obtencion de datos que seran guardados en un csv.
+Una vez seleccionada nuestra cuenta de instagram, el siguiente paso es su obtencion de datos que seran guardados en un JSON.
 Para ello necesitamos contar con una dependencia para ello y lo instalamos a traves de node.js
 
-![image](https://user-images.githubusercontent.com/58041699/133610895-f7c01c0f-3591-4b5f-ab18-f408b8c16e4b.png)
+![image](https://user-images.githubusercontent.com/58041699/133639003-ba290e3f-42a1-4578-a000-b54ab7ca9a36.png)
 
+Luego con los comandos que obtenemos de la documentacion de la dependencia nos bajaremos los datos.
+
+![image](https://user-images.githubusercontent.com/58041699/133639436-75bf1fc7-acb9-4d58-a01a-24ae44f9c8e1.png)
 
 
 * SQL LITE --- KAGGLE(CSV)
