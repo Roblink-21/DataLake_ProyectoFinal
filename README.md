@@ -413,7 +413,8 @@ De esta manera seleccionaremos en dashboard para realizar dicha representacion g
 
 y seleccionamos nuestro index para luego configurar todo
 
-![visualizacion](https://user-images.githubusercontent.com/58041699/133625176-8e3518a1-35ae-424f-b9b2-1bbaf938fcc3.JPG)
+![image](https://user-images.githubusercontent.com/58041699/133634797-70af125a-11cb-419e-9035-18c3c4180e96.png)
+
 
 
 
