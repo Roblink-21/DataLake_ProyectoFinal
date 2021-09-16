@@ -49,12 +49,12 @@ Cada caso de estudio debe tener su propio dashboard y de todo el proyecto al men
 
 * SQL LITE --- Instagram
 
-![image](https://user-images.githubusercontent.com/58041699/133362509-725d8840-3013-4a63-9685-f35397f7c9bc.png)
+![image](https://user-images.githubusercontent.com/58041699/133639003-ba290e3f-42a1-4578-a000-b54ab7ca9a36.png)
 
 Una vez seleccionada nuestra cuenta de instagram, el siguiente paso es su obtencion de datos que seran guardados en un JSON.
 Para ello necesitamos contar con una dependencia para ello y lo instalamos a traves de node.js
 
-![image](https://user-images.githubusercontent.com/58041699/133639003-ba290e3f-42a1-4578-a000-b54ab7ca9a36.png)
+![Uploading image.png…]()
 
 Luego con los comandos que obtenemos de la documentacion de la dependencia nos bajaremos los datos.
 
