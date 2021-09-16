@@ -65,7 +65,7 @@ Ese dataset que adquirimos podemos trasladarlo a un gestor base de datos como sq
 ![image](https://user-images.githubusercontent.com/58041699/133370797-5cbec501-f64b-4007-96e5-fc4495ed9c21.png)
 
 Una vez importada la data, ya hemos conseguido una BD SQL donde podemos observar las dominios de cada columnas.
-![image](https://user-images.githubusercontent.com/58041699/133370878-3eba2c9e-861e-493c-aef6-9ab3f1534a2a.png)
+![image](https://user-images.githubusercontent.com/58041699/133545801-62d33216-eb69-4600-8640-6f39979cdb3d.png)
 
 * MYSQL-(PHPMYADMIN) --- INEC
 
