@@ -54,12 +54,11 @@ Cada caso de estudio debe tener su propio dashboard y de todo el proyecto al men
 Una vez seleccionada nuestra cuenta de instagram, el siguiente paso es su obtencion de datos que seran guardados en un JSON.
 Para ello necesitamos contar con una dependencia para ello y lo instalamos a traves de node.js
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/58041699/133642065-adf5e75f-0f50-40ab-a0a8-574de5a2639a.png)
 
-Luego con los comandos que obtenemos de la documentacion de la dependencia nos bajaremos los datos.
+luego de instalar, escribo el siguiente comando para almacenar el metadata de todos los post del canal de noticias
 
-![image](https://user-images.githubusercontent.com/58041699/133639436-75bf1fc7-acb9-4d58-a01a-24ae44f9c8e1.png)
-
+![image](https://user-images.githubusercontent.com/58041699/133642607-d792f561-e560-4ee6-b8e1-574d12f5072b.png)
 
 * SQL LITE --- KAGGLE(CSV)
 
