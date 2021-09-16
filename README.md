@@ -193,5 +193,52 @@ Una vez establecida las configuraciones podemos dar un vistaso previo a la tabla
 
 * Power BI
 
+En power bi iniciamos el programa para poder utilizar los reportes visuales que se haran atraves de nuestra dataset generada. 
 ![image](https://user-images.githubusercontent.com/58041699/133537130-6cb1fbdf-f2c8-44c9-b98f-dc1a2e8ad225.png)
+
+Para la conexion con SQL Lite no existe un acceso directo para hacer una conexion directa al gestor de base de datos. 
+
+![image](https://user-images.githubusercontent.com/58041699/133546816-c7c90543-46bd-43aa-91a1-3deaf4094d5c.png)
+
+
+De esta manera lo que si podemos hacer es llamar a la base de datos de manera indirecta con un estandar ODBS, cuyo proposito es hacer posible el acceso a cualquier dato desde cualquier aplicación, sin importar qué sistema de gestión de bases de datos almacene los datos.
+
+Por ello es necesario descargar el gestor ODBS para posteriormente crear un servicio DNS que servira para la comunicacion con la herramienta Power BI
+
+![image](https://user-images.githubusercontent.com/58041699/133547110-6ffb5a3c-99d1-4096-8aaf-a0c1de5b8fcc.png)
+
+Una vez obtenido la herramienta lo que sigue es crear ese servicio DNS donde eligiremos el servicio que queremos usar, luego colocaremos un nombre para su identificacion y ademas añadiremos la ruta de donde se encuentra nuestra base de datos de SQL lite
+
+![image](https://user-images.githubusercontent.com/58041699/133547294-ef90b509-e763-4a58-9f96-cba5e7e1284c.png)
+
+![image](https://user-images.githubusercontent.com/58041699/133547525-9e8b9b78-9bd6-4bc4-84e2-786cb31b6e34.png)
+
+![image](https://user-images.githubusercontent.com/58041699/133547305-67e53319-962a-4414-bbbe-02b59cbc0d77.png)
+
+De esta manera ya podremos usar nuestra BD en Power BI, entonces nuevamente nos dirigiremos a la pestaña de obtencion de datos y eligiremos la herramiento ODBS 
+
+![image](https://user-images.githubusercontent.com/58041699/133547754-c5a29b0f-ceb5-44b9-a913-60a4ba8224fe.png)
+
+Una vez seleccionada rapidamente identificara el servicio de puertas de enlaces junto a varios de los servicios que ya habiamos visto en el gestor ODBS. Entonces seleccionaremos nuestra de puerta de enlace.
+
+![Captura1](https://user-images.githubusercontent.com/58041699/133547811-8e1e39d6-5588-46bd-8f66-f5f9087e6f74.JPG)
+
+Despues tendremos que ingresar algunas credenciales para identificar la BD.
+
+![Captura](https://user-images.githubusercontent.com/58041699/133547947-d5b42644-4cbb-4c59-83a4-51071bd3a847.JPG)
+
+Una vez completado el apartado anterior Power Bi indentificara la BD que hemos designado en el ODBS y se nos mostrara los datos de la tabla.
+
+![Captura2](https://user-images.githubusercontent.com/58041699/133548120-b043c27d-b2c8-46d9-9bab-4bd77c83b218.JPG)
+
+Y con ello abremos importado la data de nuestro SQL LITE a Power BI, y de esta manera ya podremos hacer uso de los reportes visuales.
+
+![Captura3](https://user-images.githubusercontent.com/58041699/133548202-cc84f56e-c284-4cee-b4a9-1f65893e982e.JPG)
+
+
+
+
+
+
+
 
