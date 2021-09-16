@@ -247,15 +247,19 @@ Una vez establecida las configuraciones podemos dar un vistaso previo a la tabla
 * Api Twitter
 
 Exportamos las librerias necesarias
+
 ![image](https://user-images.githubusercontent.com/58041699/133618944-e705c581-02fd-4b72-8887-23ba707e0477.png)
 
 Agregamos credenciales necesarias para la mineria de datos en Twitter y el cluster de nuestro elasticsearch cloud
+
 ![image](https://user-images.githubusercontent.com/58041699/133619425-e51187de-87e9-4d3f-a8d3-e401240bcec9.png)
 
 Luego estructuramos la data que generemos con la estructura JSON
+
 ![image](https://user-images.githubusercontent.com/58041699/133619678-67804b79-58eb-4acd-b728-a7e9d41a2c07.png)
 
 Al final se identifica el metodo de busqueda que queramos realizar (Geolocalizacion o Filtros de palabras )
+
 ![image](https://user-images.githubusercontent.com/58041699/133619782-3d65c00b-d0fc-41b5-9415-ef97a7358025.png)
 
 - Ejecucion
@@ -266,6 +270,7 @@ Con elasticSearch cloud crearemos un
 ![image](https://user-images.githubusercontent.com/58041699/133622004-22a0ff6a-7a36-414b-bf75-bab56ac5116f.png)
 
 Ejecutamos nuestro script
+
 ![image](https://user-images.githubusercontent.com/58041699/133620054-30c93c40-4b54-435f-9711-bba387d32485.png)
 
 Una vez ejecutado nos dirigiremos a elasticsearch y despues al apartado Managment y observaremos en los index el nuestro recien creado y tambien con una previa visualizacion del JSON
