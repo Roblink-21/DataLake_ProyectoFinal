@@ -411,7 +411,7 @@ Una vez completado el apartado anterior Power Bi indentificara la BD que hemos d
 
 Y con ello abremos importado la data de nuestro SQL LITE a Power BI, y de esta manera ya podremos hacer uso de los reportes visuales.
 
-![Captura3](https://user-images.githubusercontent.com/58041699/133548202-cc84f56e-c284-4cee-b4a9-1f65893e982e.JPG)
+![image](https://user-images.githubusercontent.com/58041699/133671987-f6f48f99-a4bb-411a-9b9f-d55e37c2a303.png)
 
 
 * Visualizacion (Api Twitter)
