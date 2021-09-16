@@ -321,7 +321,9 @@ Podemos observar un ligero incremento en nuestro consumo de memoria a diferencia
 
 ![image](https://user-images.githubusercontent.com/58041699/133628291-c86d85cb-bafe-4b2b-b368-9bd733d1c4c0.png)
 
+Para asegurar este proceso nos dirigiremos a Managment para revisar los index nuevamente y observar el index de SQL creado al momento
 
+![image](https://user-images.githubusercontent.com/58041699/133628819-dccc580f-7949-42c7-ab80-e30f78ee3a5c.png)
 
 
 
