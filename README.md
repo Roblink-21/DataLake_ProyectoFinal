@@ -246,6 +246,20 @@ Una vez establecida las configuraciones podemos dar un vistaso previo a la tabla
 
 # ELASTICSEARCH -- CONCENTRADOR DE DATOS
 
+* Logstash Facebook
+Iniciamos las herramientas de elasticksearch y cerebro para poder tener comunicacion entre el cluster.
+
+![image](https://user-images.githubusercontent.com/58041699/133661102-2a0013b5-bd7a-4309-8e8f-e6d21cd83f6e.png)
+
+Para iniciar con el envio de datos a elasticsearch, haremos uso de logstash provee un framework integrado para recolectar, centralizar,
+convertir, almacenar y buscar.
+
+entonces integramos nuestro script .conf dentro de nuestra carpeta bin y lo iniciamos en el cli
+
+![image](https://user-images.githubusercontent.com/58041699/133661583-6bbca7d1-d0b4-42fd-929b-dc89cd454d90.png)
+
+
+
 * Api Twitter
 
 Exportamos las librerias necesarias
